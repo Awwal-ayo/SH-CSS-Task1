@@ -1,0 +1,40 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("Images/city.jpg");
+}
+.home {
+  background-image: url("Images/city.jpg");
+}
+.topnav {
+  float: right;
+  margin-bottom: 40px;
+}
+.topnav a {
+  color: #d15a0a;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: #eb640bfd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #d15a0a91;
+  color: white;
+}
+
+.content {
+  clear: both;
+}
+
+.mission-tile, .vision-tile {
+  background-color: rgba(44, 43, 43, 0.11);
+  height: 150px;
+  border-radius: 20px;
+  text-align: center;
+}
+
