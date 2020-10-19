@@ -1,15 +1,31 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url("Images/city.jpg");
+
 }
+
+img {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  padding-top: 3%;
+}
+
 .home {
   background-image: url("Images/city.jpg");
 }
 .topnav {
-  float: right;
-  margin-bottom: 40px;
+  float: left;
+
 }
+
 .topnav a {
+  display: inline-block;
   color: #d15a0a;
   text-align: center;
   padding: 10px 10px;
@@ -29,8 +45,14 @@ body {
 
 .content {
   clear: both;
+  margin: 5%;
 }
 
+.content-h {
+  clear: both;
+  margin: 2%;
+  margin-top: 20px;
+}
 .mission-tile, .vision-tile {
   background-color: rgba(44, 43, 43, 0.11);
   height: 150px;
@@ -38,3 +60,45 @@ body {
   text-align: center;
 }
 
+/* .mission-tile h3 {
+  margin-top: 10px;
+} */
+
+.git-tile {
+  margin-top: 3%;
+}
+
+.git-tile h3 {
+  font-size: 24px;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+#fname, #email, #message {
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#button {
+  color: #d15a0a;
+  background-color: transparent;
+  border: 2px solid #d15a0a;
+  width: 100px;
+  font-weight: 400;
+}
+
+#button-h {
+  color: #d15a0a;
+  background-color: transparent;
+  border: 2px solid #d15a0a;
+}
+
+#button:hover {
+  color: #e7e7e7;
+  background-color: #d15a0a;
+  border: none;
+  width: 120px;
+}
