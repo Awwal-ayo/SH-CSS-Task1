@@ -1,104 +1,150 @@
+/* <<<<<< General styles >>>>>> */
 * {
   font-family: 'Montserrat', sans-serif;
 }
 body {
   font-family: 'Montserrat', sans-serif;
-
+  background: linear-gradient(to right, rgba(68, 68, 70, 0.52), rgba(209, 90, 10, 0.73)),
+              url(../Images/city.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
-
-img {
-  width: 50%;
-  padding: 0;
-  margin: 0;
+h1 {
+  font-size: 1.8em;
+  text-align: center;
 }
-
 h3 {
+  /* font-size: 2em; */
   padding-top: 3%;
 }
-
-.home {
-  background-image: url("Images/city.jpg");
-}
 .topnav {
+  background-color: rgb(41, 40, 39);
   float: left;
-
+  margin-left: 41%;
 }
-
 .topnav a {
   display: inline-block;
-  color: #d15a0a;
+  color: rgb(252, 251, 250);
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
   font-size: 16px;
 }
-
 .topnav a:hover {
-  background-color: #eb640bfd;
+  background-color: #dbdbdaf5;
   color: black;
 }
-
 .topnav a.active {
-  background-color: #d15a0a91;
+  background-color: #d15a0aec;
   color: white;
 }
-
 .content {
   clear: both;
   margin: 5%;
+  margin-top: 8%;
+}
+.content-h {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  clear: both;
+  /* margin-top: 20px; */
+  color: #e7e7e7;
 }
 
-.content-h {
-  clear: both;
-  margin: 2%;
-  margin-top: 20px;
+
+/* <<<<<< Home styles >>>>>> */
+
+#button-h {
+  font-size: 0.8em;
+  margin-left: 40%;
+  padding: 8px;
+  color: #d15a0a;
+  background-color: rgba(14, 10, 10, 0.76);
+  border: 1px solid #111111;
 }
+#button-h:hover {
+  color: rgb(221, 214, 214);
+  background-color: #d15a0a;
+  border: 1px solid #cac7c7b6;
+}
+
+/* <<<<<< End of Home styles >>>>>> */
+
+/* <<<<<< About styles >>>>>> */
+
 .mission-tile, .vision-tile {
-  background-color: rgba(44, 43, 43, 0.11);
+  background-color: rgba(37, 36, 36, 0.658);
   height: 150px;
   border-radius: 20px;
   text-align: center;
+  color: #bbb9b9ee;
+}
+div > h3 {
+  color: #d15a0a;
+  font-size: 1.2em;
+  line-height: 1.5;
+  /* color: #111111; */
 }
 
-/* .mission-tile h3 {
-  margin-top: 10px;
-} */
+/* <<<<<< End of About styles >>>>>> */
+
+/* <<<<<< Contact styles >>>>>> */
 
 .git-tile {
-  margin-top: 3%;
+  margin-top: 7%;
+  background-color: rgba(37, 36, 36, 0.658);
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 11%;
+  padding-bottom: 1em;
 }
-
+.git-tile > div {
+  display: inline-block;
+}
 .git-tile h3 {
-  font-size: 24px;
+  color: #d15a0ade;
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 1.5em;
 }
-
+.git-tile img {
+  /* max-width: 100%; */
+  float: left;
+  width: 350px;
+  margin: -1.8em 0 0 12em;
+}
 .content p {
   font-size: 14px;
 }
-
+.form-tile {
+  float: left;
+}
+#contact-rep {
+  float: left;
+  width: 100px;
+}
+ #contact-rep img {
+  width: 50px;
+ }
 #fname, #email, #message {
   font-size: 14px;
   padding: 5px;
   margin-bottom: 5px;
 }
-
 #button {
+  font-size: 00.8em;
   color: #d15a0a;
   background-color: transparent;
-  border: 2px solid #d15a0a;
-  width: 100px;
+  padding: 0.8em 1em ;
+  border: 1px solid #d15a0a;
+  /* width: 100px; */
   font-weight: 400;
 }
-
-#button-h {
-  color: #d15a0a;
-  background-color: transparent;
-  border: 2px solid #d15a0a;
-}
-
 #button:hover {
   color: #e7e7e7;
   background-color: #d15a0a;
-  border: none;
-  width: 120px;
+  border: 1px solid #d8d6d6;
 }
+
+/* <<<<<< End of Contact Us styles >>>>>> */
